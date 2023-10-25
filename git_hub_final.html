@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GitHub Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6f7ff; /* Attractive light blue background color */
+            text-align: center;
+        }
+
+        .container {
+            background-color: #fff;
+            width: 300px;
+            margin: 100px auto;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .github-logo {
+            font-size: 70px;
+            margin: 0 auto 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #777;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 220px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Login to GitHub</h2>
+        <form>
+            <input type="text" placeholder="Username" required><br>
+            <input type="password" placeholder="Password" required><br>
+            <input type="submit" value="Log In">
+        </form>
+        <p>Don't have an account? <a href="#">Sign up</a></p>
+    </div>
+</body>
+</html>
